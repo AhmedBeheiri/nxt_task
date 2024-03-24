@@ -1,0 +1,63 @@
+name: nxt_task
+description: "Flutter NXT Task"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  bloc: ^8.1.3
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  expandable_widgets: ^1.0.3+1
+  avatar_stack: ^1.2.0
+  flutter_rating_bar: ^4.0.1
+  dotted_line: ^3.2.2
+  darty_commons: ^1.0.2
+  flutter_bloc: ^8.1.4
+  get_it: ^7.6.7
+  injectable: ^2.4.0
+  chopper: ^7.2.0
+  cached_network_image: ^3.3.1
+  google_fonts: ^6.2.1
+  hydrated_bloc: ^9.1.4
+  flutter_screenutil: ^5.9.0
+  flutter_svg: ^2.0.10+1
+  flutter_svg_provider: ^1.0.7
+  animated_toggle_switch: ^0.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.8
+  injectable_generator: ^2.6.1
+  chopper_generator: ^7.2.0
+  flutter_lints: ^3.0.1
+
+dependency_overrides:
+  meta: ^1.11.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: SF Pro Display
+      fonts:
+        - asset: assets/fonts/SFPRODISPLAYBLACKITALIC.otf
+          style: italic
+        - asset: assets/fonts/SFPRODISPLAYBOLD.otf
+          weight: 700
+        - asset: assets/fonts/SFPRODISPLAYHEAVYITALIC.otf
+          style: italic
+          weight: 700
+        - asset: assets/fonts/SFPRODISPLAYLIGHTITALIC.otf
+          style: italic
+        - asset: assets/fonts/SFPRODISPLAYMEDIUM.otf
+          weight: 300
